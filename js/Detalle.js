@@ -21,6 +21,4 @@
     `
 
 }
-Detalle(6)
-Detalle(16)
-Detalle(60)
+Detalle(785)
