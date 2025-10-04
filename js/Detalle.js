@@ -5,8 +5,10 @@
 
     console.log(data.forms[0].name)
     console.log(data.id)
+    document.getElementById("root").innerHTML = data.forms[0].name
 
-    document.getElementById("root").innerHTML += `
+    const detalle = `
+
     <section class="c-detalle">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${data.id}.png" alt="${data.name}" height="120" width="auto">
         <p>${data.name}</p>
@@ -21,4 +23,3 @@
     `
 
 }
-Detalle(785)
